@@ -15,6 +15,8 @@
     <img src="https://readthedocs.org/projects/sindri/badge/?version=latest" alt="Documentation Status">
 </a>
 
+<img src="https://img.shields.io/pypi/pyversions/sindri" alt="Python versions">
+<img src="https://img.shields.io/pypi/l/sindri" alt="License">
 </p>
 
 
