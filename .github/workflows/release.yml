@@ -69,6 +69,19 @@ jobs:
         run: >-
           ls -l
 
+      - name: generate change log
+        uses: heinrichreimer/github-changelog-generator-action@v2.2
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          issues: true
+          issuesWoLabels: true
+          pullRequests: true
+          prWoLabels: true
+          unreleased: true
+          addSections: '{"documentation":{"prefix":"**Documentation:**","labels":["documentation"]}}'
+          sinceTag: v0.1.0
+          output: CHANGELOG.md
+
       - name: create github release
         id: create_release
         uses: softprops/action-gh-release@v1
