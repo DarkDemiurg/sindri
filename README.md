@@ -8,7 +8,7 @@
 </a>
 
 <a href="https://github.com/DarkDemiurg/sindri/actions">
-    <img src="https://github.com/DarkDemiurg/sindri/actions/workflows/main.yml/badge.svg?branch=release" alt="CI Status">
+    <img src="https://github.com/DarkDemiurg/sindri/actions/workflows/dev.yml/badge.svg?branch=master" alt="CI Status">
 </a>
 
 <a href="https://sindri.readthedocs.io/en/latest/?badge=latest">
